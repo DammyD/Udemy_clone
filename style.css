@@ -325,7 +325,18 @@ form {
 .sponsors-logo {
     margin-top: 20px;
 }
+.net{
+    border: 1px solid black;
+    padding: 5px 8px;
+}
 
+.net a {
+    color: black;
+}
+.net svg {
+    margin-top: 3px;
+    align-items: center;
+}
 footer {
     background-color: #0000;
 }
