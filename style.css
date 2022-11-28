@@ -105,11 +105,10 @@ button {
     display: block;
 }
 
-.dropdown {
+.dropdown{
     position: relative;
     display: block;
-  }
-
+}
   .dropdown-content {
     top: 0;
     float: right;
@@ -145,6 +144,12 @@ button {
 
 .trending-courses {
     margin-top: 10px;
+}
+
+.career-content a,
+.career-content1 a,
+.trending-courses a{
+    text-decoration: none;
 }
 
 .career-content p,
@@ -245,6 +250,26 @@ form {
     margin-bottom: 15px;
 }
 
+.in-demand {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding: 20px;
+    width: 100%;
+    background-color: #f7f9fa;
+    gap: 1rem;
+    align-items: center;
+}
+
+.team p{
+    width: 100px;
+}
+
+.rounded-border svg{
+    background-color: #d1d7dc;
+    border-radius: 30px;
+    padding: 10px;
+    align-items: center;
+}
 .course-gallery {
     display: flex;
     
@@ -266,7 +291,7 @@ form {
 
 .featured-category {
     display: flex;
-    gap: 8rem;
+    gap: 5rem;
     margin-top: 10px;
     margin-left: 15px;
     background-color: #f7f9fa;
@@ -327,7 +352,7 @@ form {
 }
 .net{
     border: 1px solid black;
-    padding: 5px 8px;
+    padding: 5px 10px;
 }
 
 .net a {
